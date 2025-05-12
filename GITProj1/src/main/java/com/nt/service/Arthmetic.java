@@ -4,6 +4,7 @@ public class Arthmetic
 {
 	public double sun(double x, double y)
 	{
+		//sum of two numbers
 		return x+y+0;
 	}
 }
