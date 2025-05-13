@@ -9,9 +9,10 @@ public class NetBankingService
 		return amount+" is transfering from "+srcAccpount+" to   "+destAccount;
 	}
 	 
-	public String transfermoneyUsingIMPS()
+	public String transfermoneyUsingIMPS(long srcAccpount,long destAccount,long amount)
 	{
-		return "Task ids pending";
+		return amount+" is transfering from "+srcAccpount+" to   "+destAccount+" Using IMPS";
+
 	}
 }
 
