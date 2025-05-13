@@ -8,4 +8,11 @@ public class NetBankingService
 		//Perform the UPI Payment
 		return amount+" is transfering from "+srcAccpount+" to   "+destAccount;
 	}
+	 
+	public String transfermoneyUsingIMPS()
+	{
+		return "";
+	}
 }
+
+
